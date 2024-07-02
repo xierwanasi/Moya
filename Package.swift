@@ -41,10 +41,10 @@ let package = Package(
                 .product(name: "Alamofire", package: "Alamofire")
             ], 
             exclude: [
-                "../Supporting Files",
-                "../CombineMoya",
-                "../ReactiveMoya",
-                "../RxMoya",
+                "Supporting Files/Info.plist",
+                "CombineMoya/*.swift",
+                "ReactiveMoya/*.swift",
+                "RxMoya/*.swift",
             ]
         ),
 //        .target(
