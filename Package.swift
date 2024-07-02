@@ -8,6 +8,7 @@ let rocketIfNeeded: [Package.Dependency]
 rocketIfNeeded = [
     .package(url: "https://github.com/shibapm/Rocket", .upToNextMajor(from: "1.2.0")) // dev
 ]
+
 #else
 rocketIfNeeded = []
 #endif
