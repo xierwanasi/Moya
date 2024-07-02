@@ -39,10 +39,11 @@ let package = Package(
             name: "Moya",
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire")
-            ],
+            ], 
             exclude: [
                 "Supporting Files/Info.plist"
-            ]
+            ],
+            sources: [""]
         ),
 //        .target(
 //            name: "CombineMoya",
